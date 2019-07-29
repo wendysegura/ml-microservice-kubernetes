@@ -11,7 +11,7 @@ To operationalize a working, machine learning microservice using kubernetes
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
----
+
 ## Environment SetUp
 
 * Create a virtualenv and activate it
