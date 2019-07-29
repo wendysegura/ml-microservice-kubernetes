@@ -1,5 +1,6 @@
-# Machine Learning Microservice Kubernetes
-Operationalize a working, machine learning microservice using kubernetes
+## Project Overview
+
+To operationalize a working, machine learning microservice using kubernetes
 
 ### Objectives:
 * Test your project code using linting
