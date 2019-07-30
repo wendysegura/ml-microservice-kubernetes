@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 from flask import Flask, request, jsonify
 from flask.logging import create_logger
 import logging
@@ -27,7 +28,7 @@ def home():
 def predict():
     """Performs an sklearn prediction
         
-        input looks like:
+        input looks like code below:
         {
         "CHAS":{
         "0":0
@@ -47,10 +48,9 @@ def predict():
         "LSTAT":{
         "0":4.98
         }
-        
+        }
         result looks like:
         { "prediction": [ <val> ] }
-        
         """
     
     # Logging the input payload
@@ -63,6 +63,7 @@ def predict():
     # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
     # TO DO:  Log the output prediction value
+    LOG.info(f"output prediction: \n{inference_payload}")
     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
