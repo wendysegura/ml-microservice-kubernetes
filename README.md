@@ -1,15 +1,17 @@
-## Project Overview
+[![CircleCI](https://circleci.com/gh/wendysegura/ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/wendysegura/ml-microservice-kubernetes)
 
-To operationalize a working, machine learning microservice using kubernetes
+## Project Overview
+To utulize a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios.
+Then operationalize the machine learning microservice using kubernetes
 
 ### Objectives:
-* Test your project code using linting
-* Complete a Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
+* Test project code using linting
+* Complete a Dockerfile to containerize the application
+* Deploy a containerized application using Docker and make a prediction
 * Improve the log statements in the source code for this application
 * Configure Kubernetes and create a Kubernetes cluster
 * Deploy a container using Kubernetes and make a prediction
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+* Upload a complete Github repo with CircleCI to indicate that the code has been tested
 
 
 ## Environment SetUp
