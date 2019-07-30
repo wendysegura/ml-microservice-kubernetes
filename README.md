@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/wendysegura/ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/wendysegura/ml-microservice-kubernetes)
 
 ## Project Overview
-To utulize a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios.
+To utulize a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home, data about highway access, and teacher-to-pupil ratios.
 Then operationalize the machine learning microservice using kubernetes
 
 ### Objectives:
