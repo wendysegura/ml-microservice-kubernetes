@@ -4,6 +4,10 @@
 To utulize a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home, data about highway access, and teacher-to-pupil ratios.
 Then operationalize the machine learning microservice using kubernetes
 
+<img src="model_data/housegraph.png"/>
+
+
+
 ### Objectives:
 * Test project code using linting
 * Complete a Dockerfile to containerize the application
