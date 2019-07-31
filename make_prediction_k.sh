@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-
+#port connection and IP changes per launch
+#change PORT and IP accordingly for Kubernetes
 #http://192.168.99.101:31602/
 
-PORT=31602
+PORT=32462
 echo "Port: $PORT"
 
 # POST method predict
@@ -27,4 +28,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://192.168.99.101:$PORT/predict
+     -X POST http://192.168.99.105:$PORT/predict
